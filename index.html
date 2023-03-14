@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300;1,400&family=Slabo+27px&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
     <link rel="stylesheet" href="index.css" />
     <title>Todo List</title>
   </head>
@@ -21,8 +23,17 @@
     <form >
       <input type="text" class="todo-input">
       <button class="todo-button" type="submit">
-        +
+        <i class="fa-solid fa-plus"></i>
       </button>
+      <div class="select">
+        <select name="" id="" class="filter-todos">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="ncomplete">Incomplete</option>
+        </select>
+      </div>
+    </form>
+      </div> 
     </form>
     <div class="todo-container">
       <ul class="todo-list">
