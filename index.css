@@ -29,9 +29,10 @@ form{
 form input,
 form button{
 padding: 0.5rem;
-font-size: 2rem;
+font-size: 1.5rem;
 border:none;
 background:white;
+border-radius: 0;
 }
 
 form button{
@@ -39,6 +40,7 @@ form button{
   background: black;
   cursor: pointer;
   transition: all 0.3s ease;
+  padding: 0.7rem;
 }
 
 form button:hover{
@@ -88,6 +90,7 @@ align-items: center;
 }
 
 .completed{
+  display: flex;
   text-decoration: line-through;
   opacity:0.5;
 }
@@ -110,12 +113,13 @@ align-items: center;
   margin: 1rem;
   position: relative;
   overflow: hidden;
+  border-radius: 0;
 }
 
 select{
   background: black;
   color: lightseagreen;
-  padding: 1rem;
+  padding: 0.8rem;
   font-size: 1rem;
 
 }
